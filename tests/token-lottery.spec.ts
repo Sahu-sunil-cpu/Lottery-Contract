@@ -29,7 +29,8 @@ describe('token-lottery', () => {
 
    const initConfigIx = await program.methods.initializeConfig(
     new anchor.BN( 10),
-    new anchor.BN(10000)
+    new anchor.BN(10000),
+    new anchor.BN(200)
    ).instruction();
 
 
