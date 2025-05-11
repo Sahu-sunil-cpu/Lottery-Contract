@@ -1,5 +1,7 @@
 # 🎟️ Lottery Ticket 
 
+⚠️ **Note:** This project is in its **initial development phase** and not yet complete. Some features may be partially implemented or under construction. Contributions, ideas, and feedback are welcome!
+
 **Lottery Ticket** is a decentralized lottery system built using **Solana**, **Anchor**, and **Next.js**. This project combines the power of smart contracts with a modern frontend to ensure a transparent, secure, and user-friendly lottery experience.
 
 Built for a hackathon, this project demonstrates how blockchain can revolutionize traditional systems by eliminating intermediaries and enhancing trust through decentralization.
