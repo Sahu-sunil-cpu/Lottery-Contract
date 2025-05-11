@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎟️ Lottery Ticket - A Full Stack Blockchain DApp
 
-## Getting Started
+**Lottery Ticket** is a decentralized lottery system built using **Solana**, **Anchor**, and **Next.js**. This project combines the power of smart contracts with a modern frontend to ensure a transparent, secure, and user-friendly lottery experience.
 
-First, run the development server:
+Built for a hackathon, this project demonstrates how blockchain can revolutionize traditional systems by eliminating intermediaries and enhancing trust through decentralization.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Features
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- 🎫 **Create Lottery Tickets**  
+  Smart contract-enabled ticket generation stored on-chain.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- 💰 **Buy Tickets**  
+  Anyone can participate by purchasing available tickets using their wallet.
 
-## Learn More
+- 🔍 **Reveal Winners**  
+  Fully transparent winner selection using the smart contract logic.
 
-To learn more about Next.js, take a look at the following resources:
+- 🌐 **DApp UI**  
+  Built with Next.js for seamless interaction with the blockchain in real-time.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📦 Tech Stack
 
-## Deploy on Vercel
+| Layer     | Tech Used                        |
+|-----------|----------------------------------|
+| Blockchain | Solana, Anchor (Rust framework) |
+| Frontend  | Next.js, TailwindCSS, Wallet Adapter |
+| Backend   | Anchor Smart Contract (Rust)     |
+| Tools     | Solana CLI, Yarn, Local Validator |
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌍 Why Blockchain for Lottery?
+
+Traditional lottery systems suffer from issues like:
+
+- **Lack of transparency** in the draw process  
+- **Centralized control**, risking manipulation  
+- **Delayed payouts and verification**
+
+By using **blockchain**, we solve these problems:
+
+✅ Transparent & verifiable draw  
+✅ Immutable smart contract logic  
+✅ Instant settlement of prizes  
+✅ No central authority  
+✅ Fair and trustless participation  
+
+---
+
+## 📁 Project Structure
+
