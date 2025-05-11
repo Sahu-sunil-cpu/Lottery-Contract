@@ -56,9 +56,44 @@ By using **blockchain**, we solve these problems:
 
 Follow these steps to set up the project locally.
 
-### 1. Clone the Repository
+###  Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/lottery-ticket.git
-cd lottery-ticket## 📁 Project Structure
+git clone https://github.com/Sahu-sunil-cpu/Lottery-Contract.git
+cd lottery-ticket
+```
+
+###  Install Dependencies
+
+```bash
+npm install
+or
+yarn install
+or
+pnpm install
+```
+
+###  Build the lottery smart contract
+```bash
+cd anchor
+anchor build
+```
+
+### Run the Frontend
+Back in the root directory:
+
+```bash
+yarn dev
+```
+
+### Testing Smart Contracts
+Anchor tests are available in the anchor/tests/ folder. You can run them using:
+
+```bash
+cd anchor
+anchor test
+```
+
+## 🙌 Contribution
+Contributions are welcome! Please fork the repo and submit a pull request.
 
