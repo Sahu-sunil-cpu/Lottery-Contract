@@ -50,6 +50,15 @@ By using **blockchain**, we solve these problems:
 ✅ Fair and trustless participation  
 
 ---
+---
 
-## 📁 Project Structure
+## ⚙️ Getting Started
+
+Follow these steps to set up the project locally.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/yourusername/lottery-ticket.git
+cd lottery-ticket## 📁 Project Structure
 
